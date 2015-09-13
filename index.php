@@ -1,6 +1,8 @@
 <?php
+    # Ф-я выводит на экран переданный аргумент
+    function hlwrld($param1){
+        print $param1;
+    }
 
-    print "HLWRLD!";
-    print "HLWRLD2!";
-
+    hlwrld($_GET["cmd"]);
 ?>
