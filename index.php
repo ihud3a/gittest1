@@ -8,5 +8,13 @@
         }
     }
 
+    function hlwrld2($param2){
+        if ($param1 =='') {
+            print "Enter param2 needed";
+        } else {
+            print $param2;
+        }
+    }
+
     hlwrld($_GET["cmd"]);
 ?>
